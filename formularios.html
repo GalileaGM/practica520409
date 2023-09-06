@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body style="font-family: 'Courier New', Courier, monospace;">
+    <header>
+        <h1>Formularios</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+                <li><a href="#">Link 6</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Main</h2>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre: </label><!--Etiqueta-->
+                <input type="text" name="nombre" id="nombre"><!--caja-->
+            </div>
+
+            <div>
+                <p>
+                    
+                </p>
+                <label for="fechaNac">Fecha de nacimiento: </label><!--Etiqueta-->
+                <input type="date" name="fechaNac" id="fechaNac"><!--caja-->
+            </div>
+            <div>
+                <p>
+
+                </p>
+                <label for="foto">Foto de perfil: </label><!--Etiqueta-->
+                <input type="file" name="foto" id="foto"><!--caja-->
+            </div>
+
+            <div>
+                <p>
+
+                </p>
+                <label for="semestre">Semestre: </label><!--Etiqueta-->
+                <input type="range" min="1" max="9" name="semestre" id="semestre"><!--caja-->
+            </div>
+            <div>
+                <p>
+
+                </p>
+                <label for="colorFav">Color Favorito: </label><!--Etiqueta-->
+                <input type="color"  name="colorFav" id="colorFav"><!--caja-->
+            </div>
+            <div>
+                <p>
+
+                </p>
+                <label for="semanaN">Semana de Nac: </label><!--Etiqueta-->
+                <input type="week"  name="semanaN" id="semanaN"><!--caja-->
+            </div>
+                <p>
+
+                </p>
+                <label for="ob">Observaciones : </label><!--Etiqueta-->
+                <textarea name="ob" id="ob" cols="30" rows="10"></textarea><!--caja-->
+            </div>
+            </div>
+                <p>
+
+                </p>
+                <label for="curso">Cursos : </label><!--Etiqueta-->
+                <select name="curso" id="curso">
+                    <option value="3">Python</option>
+                    <option value="45">Java</option>
+                    <option value="32">C#</option>
+                    <option value="4">R</option>
+                    <option value="100">Julia</option>
+                </select><!--caja-->
+            </div>
+            </div>
+                <p>
+
+                </p>
+                <label for="Curso 3">Curso 3 : </label><!--Etiqueta-->
+                <select name="Curso 3" id="Curso 3">
+                    <optgroup label="Incluye certificacion">
+                        <option value="3">Python</option>
+                        <option value="45">Java</option>
+                        <option value="32">C#</option>
+                    </optgroup>
+
+                    <optgroup label="NO Incluye certificacion">
+                        <option value="4">R</option>
+                        <option value="100">Julia</option>
+                    </optgroup>
+                </select><!--caja-->
+            </div>
+            </div>
+                <p>
+
+                </p>
+                <label for="Curso 2">Curso 2 : </label><!--Etiqueta-->
+                <select name="Curso 2" id="Curso 2" multiple>
+                    <option value="3">Python</option>
+                    <option value="45">Java</option>
+                    <option value="32">C#</option>
+                    <option value="4">R</option>
+                    <option value="100">Julia</option>
+                </select><!--caja-->
+            </div>
+            <input type="button" value="Guardar">
+            <input type="submit" value="Guardar">
+            <input type="reset" value="Guardar">
+            <button>Guardar</button>
+            <a href="#">Guardar</a>
+        </form>
+
+    </main>
+    <aside>
+        <h2>Aside</h2>
+
+    </aside>
+    <footer>
+        <h2>Footer</h2>
+
+    </footer>
+
+
+    <!--(header>nav>ul>(li>a[href="#"]{Link $})*6)+main+aside+footer-->
+
+</body>
+</html>
